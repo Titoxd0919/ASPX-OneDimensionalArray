@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="OneDimensionalArray.aspx" />
+    <Content Include="OneDimensionalArray2.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +78,13 @@
     </Compile>
     <Compile Include="OneDimensionalArray.aspx.designer.cs">
       <DependentUpon>OneDimensionalArray.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OneDimensionalArray2.aspx.cs">
+      <DependentUpon>OneDimensionalArray2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OneDimensionalArray2.aspx.designer.cs">
+      <DependentUpon>OneDimensionalArray2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
